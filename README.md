@@ -15,9 +15,11 @@ adalah algoritma populer dalam pemecahan persoalan yang terkait dengan masalah o
 - Set “Node belum dilewati” dengan jarak terkecil (dari node keberangkatan) sebagai “Node Keberangkatan” selanjutnya dan ulangi langkah 4.
 
 ## Contoh menghitung jarak terdekat dari V1 ke V7 
+
 ![gambar contoh dijkstra](https://user-images.githubusercontent.com/81666422/116695200-74af0280-a9ea-11eb-971e-6fa6434bdebc.png)
 
 Hasil setiap langlah seperti tabel dibawah ini :
+
 ![langkah](https://user-images.githubusercontent.com/81666422/116695849-58f82c00-a9eb-11eb-95a7-42e1074d07fe.png)
 
 Jika ditinjau dari tabel diatas dapat disimpulkan bahwa jarak terdekat dari V1 ke V7 adalah 16 dengan jalur V1->V2->V3->V5->V6->V7
