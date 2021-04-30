@@ -14,7 +14,7 @@ adalah algoritma populer dalam pemecahan persoalan yang terkait dengan masalah o
 
 - Set “Node belum dilewati” dengan jarak terkecil (dari node keberangkatan) sebagai “Node Keberangkatan” selanjutnya dan ulangi langkah 4.
 
-### Contoh menghitung jarak terdekat dari V1 ke V7 
+## Contoh menghitung jarak terdekat dari V1 ke V7 
 ![gambar contoh dijkstra](https://user-images.githubusercontent.com/81666422/116695200-74af0280-a9ea-11eb-971e-6fa6434bdebc.png)
 
 Hasil setiap langlah seperti tabel dibawah ini :
@@ -22,10 +22,10 @@ Hasil setiap langlah seperti tabel dibawah ini :
 
 Jika ditinjau dari tabel diatas dapat disimpulkan bahwa jarak terdekat dari V1 ke V7 adalah 16 dengan jalur V1->V2->V3->V5->V6->V7
 
-### Contoh pemrograman
+## Contoh pemrograman
 - untuk source code terdapat di bagian code
 
-Input :
+### Input :
 ```
 Matriks [0][0] : 0
 Matriks [0][1] : 4
@@ -129,7 +129,7 @@ Matriks [9][8] : 2
 Matriks [9][9] : 0
 Masukan Vertex Asal : 0
 ```
-Output :
+### Output :
 ```
 Hasil jarak untuk vertex ke-1 adalah
 4<-10
@@ -151,12 +151,12 @@ Hasil jarak untuk vertex ke-9 adalah
 9<-97<-6<-5<-4<-3<-0
 Total Jaraknya adalah 9
 ```
-Tabel :
+### Tabel :
 
 ![tabel](https://user-images.githubusercontent.com/81666422/116698155-416e7280-a9ee-11eb-9598-09fda55bb9ee.JPG)
 
-Tree :
+### Tree :
 
 ![tree](https://user-images.githubusercontent.com/81666422/116698259-58ad6000-a9ee-11eb-8731-e5e032154c27.JPG)
 
-Berdasarkan penelitian yang telah dilakukan, dapat disimpulkan bahwa program algoritma djikstra sangat membantu didalam menemukan data berupa jarak yang terdekat sehingga dapat menambah efisiensi waktu dalam pencarian tempat yang terdekat yang akan dituju. Program algoritma djikstra selalu melakukan penginputan yang berulang (prinsipnya misalkan 1,2 ≠ 2,1). Dengan adanya prinsip seperti ini, tentu sangat mempengaruhi dalam waktu untuk pencarian data berupa jarak yang terdekat. 
+Dapat disimpulkan bahwa program algoritma djikstra sangat membantu didalam menemukan data berupa jarak yang terdekat sehingga dapat menambah efisiensi waktu dalam pencarian tempat yang terdekat yang akan dituju. Program algoritma djikstra selalu melakukan penginputan yang berulang (prinsipnya misalkan 1,2 ≠ 2,1). Dengan adanya prinsip seperti ini, tentu sangat mempengaruhi dalam waktu untuk pencarian data berupa jarak yang terdekat. 
